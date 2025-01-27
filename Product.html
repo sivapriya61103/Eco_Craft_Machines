@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Products Catalog</title>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2em; /* Add space around the entire page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    background-color: rgba(41, 122, 41, 0.9); /* Add transparency */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a { 
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 5em; /* Add space around the catalog section */
+    justify-content: center;
+    background-image: url('./dashboard_img.jpg'); /* Replace with the correct image path */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional background for better contrast */
+    border-radius: 8px; /* Optional rounded corners for the container */
+    margin: 2em; /* Space around the entire catalog */
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    text-align: center;
+}
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-card h3 {
+            margin: 1em 0 0.5em;
+        }
+        .product-card a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 0.8em 1.2em;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 1em;
+        }
+        .product-card a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="Order.html">Order Form</a>
+        <a href="Seller.html">Seller</a>
+    </nav>
+
+    <div class="catalog">
+        <div class="product-card">
+            <img src="paper_pen_machine.jpg" alt="Paper Pen Making Machine">
+            <h3>Paper Pen Making Machine</h3>
+            <a href="Paper_pen_machine.html">View Details</a>
+            
+        </div>
+        <div class="product-card">
+            <img src="paper_pencil_machine.jpg" alt="Paper Pencil Making Machine">
+            <h3>Paper Pencil Making Machine</h3>
+            <a href="Paper_pencil_machine.html">View Details</a>
+        </div>
+        <div class="product-card">
+            <img src="cap_cutting.jpg" alt="Cap Cutting Machine">
+            <h3>Cap Tube Cutting Machine</h3>
+            <a href="Cap_tube_cutting_machine.html">View Details</a>
+        </div>
+        <div class="product-card">
+            <img src="cap_pressing.jpg" alt="Cap Pressing Machine">
+            <h3>Cap Pressing Machine</h3>
+            <a href="Cap_pressing_machine.html">View Details</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>For more details, refer to: <a href="https://www.youtube.com/@subburajcellno" target="_blank" style="color: white; text-decoration: underline;">YouTube Link</a></p>
+        <p>Contact: 7708109796 </p>
+      </footer>
+</body>
+
+</html>
